@@ -8,6 +8,7 @@ import RetreatsPage from "./pages/Retreats/RetreatsPage";
 import TeamPage from "./pages/Team/TeamPage";
 import TestimonialsPage from "./pages/Testimonials/TestimonialsPage";
 import Error404 from "./pages/Error/Error404";
+import OurModelPage from "./pages/OurModel/OurModelPage";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Route path="contacts" element={<ContactPage />} />
         <Route path="faq" element={<FaqPage />} />
         <Route path="retreats" element={<RetreatsPage />} />
-        <Route path="teams" element={<TeamPage />} />
+        <Route path="team" element={<TeamPage />} />
+        <Route path="model" element={<OurModelPage />} />
         <Route path="testimonials" element={<TestimonialsPage />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
