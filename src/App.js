@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage";
 import BenefitsPage from "./pages/Benefits/BenefitsPage";
 import ContactPage from "./pages/Contacts/ContactPage";
@@ -12,11 +12,7 @@ import OurModelPage from "./pages/OurModel/OurModelPage";
 
 function App() {
   return (
-    <div className="">
-      {/* <nav>
-        <Link to="/">Home</Link>
-        <Link to="/benefits">Benefits</Link>
-      </nav> */}
+    <div className="3xl:container mx-auto">
       <Routes>
         <Route index element={<HomePage />} />
         <Route path="benefits" element={<BenefitsPage />} />
