@@ -4,7 +4,7 @@ import Button from "../../components/Button";
 
 function Experiences() {
   return (
-    <section className="text-center min-h-screen bg-[#062e2d] font-Nunito pt-10 px-4 md:pt-12 md:px-20 xl:px-32">
+    <section className="text-center min-h-screen bg-[#062e2d] font-Nunito pt-10 pb-4 px-4 md:pt-12 md:px-20 xl:px-32">
       <div className="text-[#c3a955] uppercase font-semibold font-Roboto tracking-wider text-xl md:text-3xl mb-6 md:mb-10">
         <h1>Life-changing experiences.</h1>
         <h1>Long-lasting results.</h1>
@@ -15,7 +15,7 @@ function Experiences() {
         evolution. Here are just a few of the many benefits you may experience
         as a result of embarking on one of our journeys
       </p>
-      <div className="flex gap-3 items-center justify-around flex-wrap my-16">
+      <div className="flex gap-12 md:gap-3 items-center justify-around flex-wrap my-16">
         <BenefitTriangle
           triangle="t1"
           upright={false}
