@@ -32,3 +32,25 @@
 .rotate-triangle {
   transform: rotate(180deg);
 }
+.why-elemental {
+  background: rgb(6, 46, 45);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(6, 46, 45, 1) 13%,
+    rgba(10, 49, 48, 0.7791491596638656) 25%,
+    rgba(40, 72, 71, 0.3925945378151261) 82%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(6, 46, 45, 1) 13%,
+    rgba(10, 49, 48, 0.7791491596638656) 25%,
+    rgba(40, 72, 71, 0.3925945378151261) 82%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(6, 46, 45, 1) 13%,
+    rgba(10, 49, 48, 0.7791491596638656) 25%,
+    rgba(40, 72, 71, 0.3925945378151261) 82%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#062e2d",endColorstr="#284847",GradientType=1);
+}
