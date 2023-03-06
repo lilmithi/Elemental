@@ -4,6 +4,7 @@ import LinksList from "../../components/LinksList";
 import EmpowerSection from "./sections/EmpowerSection";
 import Experiences from "./sections/Experiences";
 import WhyElemental from "./sections/WhyElemental";
+import UpcomingRetreats from "./sections/UpcomingRetreats";
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <EmpowerSection />
       <Experiences />
       <WhyElemental />
+      <UpcomingRetreats />
     </>
   );
 }
