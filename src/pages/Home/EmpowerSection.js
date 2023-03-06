@@ -2,14 +2,14 @@ import React from "react";
 
 function EmpowerSection() {
   return (
-    <section className="min-h-screen w-full grid md:grid-cols-2 pt-16 px-3 md:pl-32 md:pr-0 gap-12 md:gap-28 grid-flow-row font-Nunito relative empower">
+    <section className="min-h-screen w-full grid grid-cols-1 lgPro:grid-cols-2 pt-16 px-3 lgPro:pl-28 md:pr-0 gap-12 md:gap-24 grid-flow-row font-Nunito relative empower">
       <img
         src="assets/images/empower-background.jpg"
         alt="empower background"
         className="absolute top-0 left-0 w-full h-full object-cover object-bottom -z-10 brightness-50"
       />
-      <div className="text-white col-span-2 md:col-span-1 text-justify md:text-left justify-self-center">
-        <h1 className="uppercase text-[#c3a955] text-left tracking-widest text-2xl md:text-3xl font-bold font-RobotoMono">
+      <div className="text-white col-span-2 lgPro:col-span-1 text-justify md:text-left justify-self-center">
+        <h1 className="uppercase text-[#c3a955] text-left tracking-widest text-2xl md:text-3xl font-bold font-Roboto">
           Restore. Recharge. Reconnect.
         </h1>
         <p className="my-3">
@@ -31,7 +31,7 @@ function EmpowerSection() {
           world so you can elevate your impact and influence in the outer world.
         </p>
       </div>
-      <div className="col-span-2 md:col-span-1 justify-self-center">
+      <div className="col-span-2 lgPro:col-span-1 justify-self-center">
         <img
           src="assets/images/restore-reconnect.jpg"
           alt="restore-reconnect pic"
@@ -39,8 +39,8 @@ function EmpowerSection() {
           loading="lazy"
         />
       </div>
-      <div className="md:col-span-1 col-span-2 md:pr-28 text-white text-justify md:text-left md:hidden">
-        <h1 className="uppercase text-left text-[#c3a955] tracking-wider text-2xl md:text-3xl font-bold font-RobotoMono">
+      <div className="col-span-2 text-white text-justify md:text-left lgPro:hidden">
+        <h1 className="uppercase text-left text-[#c3a955] tracking-wider text-2xl md:text-3xl font-bold font-Roboto">
           Ancient meets modern
         </h1>
         <p className="my-3">
@@ -57,7 +57,7 @@ function EmpowerSection() {
           world.
         </p>
       </div>
-      <div className="md:col-span-1 col-span-2 justify-self-center">
+      <div className="lgPro:col-span-1 col-span-2 justify-self-center">
         <img
           src="assets/images/ancient.jpg"
           alt="ancient"
@@ -65,8 +65,8 @@ function EmpowerSection() {
           loading="lazy"
         />
       </div>
-      <div className="md:col-span-1 col-span-2 md:pr-28 text-white text-justify md:text-left hidden md:block">
-        <h1 className="uppercase text-left text-[#c3a955] tracking-wider text-2xl md:text-3xl font-bold font-RobotoMono">
+      <div className="lgPro:col-span-1 col-span-2 lgPro:pr-24 text-white text-justify md:text-left hidden lgPro:block">
+        <h1 className="uppercase text-left text-[#c3a955] tracking-wider text-2xl md:text-3xl font-bold font-Roboto">
           Ancient meets modern
         </h1>
         <p className="my-3">
