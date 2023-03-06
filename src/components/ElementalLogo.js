@@ -8,13 +8,10 @@ function ElementalLogo() {
       className="w-max mx-auto -mt-1 h-max flex flex-col items-center justify-center overflow-hidden"
     >
       <img
-        src="assets/images/elemental-logo.png"
-        alt="Elemental logo"
-        className="w-14 h-14 object-cover"
+        src="assets/images/full-logo.png"
+        alt="logo"
+        className="w-20 object-cover brightness-110"
       />
-      <span className="text-white text-sm font-RobotoMono tracking-widest font-light uppercase">
-        Elemental
-      </span>
     </Link>
   );
 }
