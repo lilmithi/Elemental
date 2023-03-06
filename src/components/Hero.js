@@ -20,7 +20,7 @@ function Hero({
       />
       <ElementalLogo />
       <div className="text-center text-white mt-32 text-4xl tracking-widest uppercase font-semibold">
-        <p>{heroTitle}</p>
+        <h1>{heroTitle}</h1>
         <span className="text-[#c3a955] leading-8">{heroEm}</span>
       </div>
       <p className="text-center text-white leading-10 mt-4 mb-8">{para}</p>
