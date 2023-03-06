@@ -1,6 +1,27 @@
 import React from "react";
+import HolisticModel from "../../components/HolisticModel";
 
 function WhyElemental() {
+  const data = [
+    {
+      title: "Preparation",
+      duration: "2 Weeks",
+      status: "Remote",
+      text: "Before you embark on your journey with us we provided self-inquiry excercises and support to ensure you have a deeply meaningful and enriching experience. You will also have the opportunity to meet your lead facilitators and fellow participants via video call, allowing you to know each other and feel safe in the froup, as well as ask any burning questions you might have.",
+    },
+    {
+      title: "Implementation",
+      duration: "1 Week",
+      status: "On-Site Retreat",
+      text: `Embark on an unforgettable quest in some of the most idyllic locations in Mexico. Through a carefully curated blend of Sonic Breathwork, holistic wellness therapies, workshops and psilocybin-assisted journeys, our experiences offer you the opportunity to be challenged, inspired, and deeply nourished in your body, mind and soul.`,
+    },
+    {
+      title: "Integration",
+      duration: "2 Weeks",
+      status: "Remote",
+      text: "One of the most important aspects of having peak experiences is integration. Through 1-1 and group calls, we help you take the insights, the clarity and the inner wisdom you received from the experience and embody and actualize them into our everyday life.",
+    },
+  ];
   return (
     <section className="min-h-screen why-elemental relative pt-32 text-white px-4 md:px-24 lgPro:px-48 2xl:px-64">
       <img
@@ -23,30 +44,16 @@ function WhyElemental() {
       </p>
 
       <div className="mt-8">
-        <div className="md:h-52 pb-2 sm:pb-0 h-auto flex flex-col md:flex-row md:items-center bg-[#093331] opacity-80">
-          <div className="bg-[#92a788] md:w-[7.5%] md:h-full flex items-center justify-center">
-            1
-          </div>
-          <div className="flex md:w-[25%] md:h-full md:items-center">
-            <div className="border-b border-r-0 flex md:flex-col justify-around flex-wrap items-center w-full md:py-8 sm:border-r sm:border-b-0 border-[#c3a955] md:justify-center">
-              <h3 className="text-[#c3a955] font-semibold text-lg">
-                Preparation
-              </h3>
-              <p className="">
-                <span>2 Weeks, </span>
-                <span>Remote</span>
-              </p>
-            </div>
-          </div>
-          <p className="md:w-[67.5%] text-sm px-8 pt-2 sm:pt-0">
-            Before you embark on your journey with us we provided self-inquiry
-            excercises and support to ensure you have a deeply meaningful and
-            enriching experience. You will also have the opportunity to meet
-            your lead facilitators and fellow participants via video call,
-            allowing you to know each other and feel safe in the froup, as well
-            as ask any burning questions you might have.
-          </p>
-        </div>
+        {data.map((item, index) => (
+          <HolisticModel
+            key={index}
+            position={index + 1}
+            title={item.title}
+            duration={item.duration}
+            status={item.status}
+            text={item.text}
+          />
+        ))}
       </div>
     </section>
   );
