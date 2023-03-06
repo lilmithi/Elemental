@@ -16,7 +16,7 @@ function Hero({
         src={heroImage}
         placeholderSrc={heroImageLazy}
         alt="hero pic"
-        className="absolute top-0 left-0 -z-10 w-full h-full object-cover brightness-50"
+        className="absolute top-0 left-0 -z-10 w-full h-full object-cover brightness-50 bg-[#284847]"
       />
       <ElementalLogo />
       <div className="text-center text-white mt-32 text-4xl tracking-widest uppercase font-semibold">
