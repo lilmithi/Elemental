@@ -11,15 +11,15 @@ function Hero({
   heroImageLazy = "assets/images/home-hero-low.jpg",
 }) {
   return (
-    <section className="h-screen">
+    <section className="h-screen relative">
       <LazyLoadImage
         src={heroImage}
         placeholderSrc={heroImageLazy}
         alt="hero pic"
-        className="absolute top-0 left-0 -z-10 w-full h-full object-cover brightness-50 bg-[#284847]"
+        className="absolute top-0 left-0 -z-10 w-full h-full object-cover object-center brightness-50 bg-[#284847] 3xl:container"
       />
       <ElementalLogo />
-      <div className="text-center text-white mt-32 text-4xl tracking-widest uppercase font-semibold">
+      <div className="text-center font-Roboto text-white mt-32 text-4xl tracking-widest uppercase font-semibold">
         <h1>{heroTitle}</h1>
         <span className="text-[#c3a955] leading-8">{heroEm}</span>
       </div>
