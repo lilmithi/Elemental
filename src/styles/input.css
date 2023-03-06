@@ -4,31 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root::-webkit-scrollbar {
+/* :root::-webkit-scrollbar {
   background-color: #b2b09d;
 }
 :root::-webkit-scrollbar-thumb {
   background-color: #507165;
-}
+} */
 .navLink:hover {
   color: #b2b09d;
 }
 .empower {
-  background: rgb(40, 72, 71);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(40, 72, 71, 1) 31%,
-    rgba(40, 72, 71, 0.4766281512605042) 96%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(40, 72, 71, 1) 31%,
-    rgba(40, 72, 71, 0.4766281512605042) 96%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(40, 72, 71, 1) 31%,
-    rgba(40, 72, 71, 0.4766281512605042) 96%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#284847",endColorstr="#284847",GradientType=1);
+  background: rgb(38,72,71);
+background: -moz-linear-gradient(180deg, rgba(38,72,71,1) 16%, rgba(40,72,71,0.45702030812324934) 60%, rgba(6,40,39,0.8323704481792717) 85%, rgba(6,46,45,1) 85%);
+background: -webkit-linear-gradient(180deg, rgba(38,72,71,1) 16%, rgba(40,72,71,0.45702030812324934) 60%, rgba(6,40,39,0.8323704481792717) 85%, rgba(6,46,45,1) 85%);
+background: linear-gradient(180deg, rgba(38,72,71,1) 16%, rgba(40,72,71,0.45702030812324934) 60%, rgba(6,40,39,0.8323704481792717) 85%, rgba(6,46,45,1) 85%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#264847",endColorstr="#062e2d",GradientType=1);
 }
