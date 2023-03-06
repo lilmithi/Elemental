@@ -6,12 +6,12 @@ import Experiences from "./Experiences";
 
 function HomePage() {
   return (
-    <div className="">
+    <>
       <Hero />
       <LinksList />
       <EmpowerSection />
       <Experiences />
-    </div>
+    </>
   );
 }
 
