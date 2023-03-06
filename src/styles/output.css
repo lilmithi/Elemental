@@ -1004,6 +1004,17 @@ video {
           transform: rotate(180deg);
 }
 
+.why-elemental {
+  background: rgb(6, 46, 45);
+  background: linear-gradient(
+    180deg,
+    rgba(6, 46, 45, 1) 13%,
+    rgba(10, 49, 48, 0.7791491596638656) 25%,
+    rgba(40, 72, 71, 0.3925945378151261) 82%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#062e2d",endColorstr="#284847",GradientType=1);
+}
+
 @media (min-width: 2000px){
   .\33xl\:container{
     width: 100%;
@@ -1154,6 +1165,11 @@ video {
   .md\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .md\:pr-0{
