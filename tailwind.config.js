@@ -4,8 +4,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        RobotoMono: ["Roboto Mono", "sans-serif"],
-        Nunito: ["Nunito", "Roboto Mono", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],
+        Nunito: ["Nunito", "Roboto", "sans-serif"],
+      },
+      screens: {
+        lgPro: "1082px",
+        "3xl": "2000px",
       },
     },
   },
