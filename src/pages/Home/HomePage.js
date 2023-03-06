@@ -1,9 +1,9 @@
 import React from "react";
 import Hero from "../../components/Hero";
 import LinksList from "../../components/LinksList";
-import EmpowerSection from "./EmpowerSection";
-import Experiences from "./Experiences";
-import WhyElemental from "./WhyElemental";
+import EmpowerSection from "./sections/EmpowerSection";
+import Experiences from "./sections/Experiences";
+import WhyElemental from "./sections/WhyElemental";
 
 function HomePage() {
   return (

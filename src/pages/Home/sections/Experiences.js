@@ -1,6 +1,6 @@
 import React from "react";
-import BenefitTriangle from "../../components/BenefitTriangle";
-import Button from "../../components/Button";
+import BenefitTriangle from "../../../components/BenefitTriangle";
+import Button from "../../../components/Button";
 
 function Experiences() {
   const triangles = [

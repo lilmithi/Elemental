@@ -1,5 +1,5 @@
 import React from "react";
-import HolisticModel from "../../components/HolisticModel";
+import HolisticModel from "../../../components/HolisticModel";
 
 function WhyElemental() {
   const data = [
