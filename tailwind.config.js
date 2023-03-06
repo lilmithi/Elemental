@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         RobotoMono: ["Roboto Mono", "sans-serif"],
+        Nunito: ["Nunito", "Roboto Mono", "sans-serif"],
       },
     },
   },
