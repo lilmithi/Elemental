@@ -3,6 +3,32 @@ import BenefitTriangle from "../../components/BenefitTriangle";
 import Button from "../../components/Button";
 
 function Experiences() {
+  const triangles = [
+    {
+      triangle: "t1",
+      upright: false,
+      heading: "Increased mental and emotional resilience",
+      text: "Dissolve stress and anxiety and breakthrough limiting beliefs, negative patterns and trauma",
+    },
+    {
+      triangle: "t2",
+      upright: true,
+      heading: "Deeper sense of purpose and meaning",
+      text: "Feel more alive and fulfilled and create a greater connection to yourself, others and life itself.",
+    },
+    {
+      triangle: "t1",
+      upright: false,
+      heading: "More harmonious relationships",
+      text: "Overcome your triggers, improve your communication and feel more connected to your friends, family and team.",
+    },
+    {
+      triangle: "t2",
+      upright: true,
+      heading: "Greater clarity, creativity and confidence",
+      text: "Illuminate your mind and tap into the flow of life to uncover your creative genius and highest potential.",
+    },
+  ];
   return (
     <section className="text-center min-h-screen bg-[#062e2d] font-Nunito pt-10 pb-4 px-4 md:pt-12 md:px-20 xl:px-32">
       <div className="text-[#c3a955] uppercase font-semibold font-Roboto tracking-wider text-xl md:text-3xl mb-6 md:mb-10">
@@ -16,37 +42,15 @@ function Experiences() {
         as a result of embarking on one of our journeys
       </p>
       <div className="flex gap-12 md:gap-3 items-center justify-around flex-wrap my-16">
-        <BenefitTriangle
-          triangle="t1"
-          upright={false}
-          heading="Increased mental and emotional resilience"
-          text="Dissolve stress and anxiety and breakthrough limiting beliefs,
-            negative patterns and trauma"
-        />
-
-        <BenefitTriangle
-          triangle="t2"
-          upright={true}
-          heading="Deeper sense of purpose and meaning"
-          text="Feel more alive and fulfilled and create a greater connection to
-            yourself, others and life itself."
-        />
-
-        <BenefitTriangle
-          triangle="t2"
-          upright={false}
-          heading="More harmonious relationships"
-          text="Overcome your triggers, improve your communication and feel more
-            connected to your friends, family and team."
-        />
-
-        <BenefitTriangle
-          triangle="t1"
-          upright={true}
-          heading="Greater clarity, creativity and confidence"
-          text="Illuminate your mind and tap into the flow of life to uncover your
-            creative genius and highest potential."
-        />
+        {triangles.map((triangle, index) => (
+          <BenefitTriangle
+            key={index}
+            triangle={triangle.triangle}
+            upright={triangle.upright}
+            heading={triangle.heading}
+            text={triangle.text}
+          />
+        ))}
       </div>
       <Button />
     </section>
