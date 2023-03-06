@@ -2,14 +2,14 @@ import React from "react";
 
 function EmpowerSection() {
   return (
-    <section className="min-h-screen w-full grid md:grid-cols-2 pt-16 md:pl-32 gap-28 grid-flow-row font-Nunito relative empower">
+    <section className="min-h-screen text-justify w-full grid md:grid-cols-2 pt-16 px-3 md:pl-32 md:pr-0 gap-12 md:gap-28 grid-flow-row font-Nunito relative empower">
       <img
         src="assets/images/empower-background.jpg"
         alt="empower background"
         className="absolute top-0 left-0 w-full h-full object-cover -z-10 brightness-50"
       />
-      <div className="text-white">
-        <h1 className="uppercase text-[#c3a955] tracking-widest text-2xl md:text-3xl font-bold font-RobotoMono">
+      <div className="text-white col-span-1 justify-self-center">
+        <h1 className="uppercase text-[#c3a955] text-left tracking-widest text-2xl md:text-3xl font-bold font-RobotoMono">
           Restore. Recharge. Reconnect.
         </h1>
         <p className="my-3">
@@ -31,11 +31,12 @@ function EmpowerSection() {
           world so you can elevate your impact and influence in the outer world.
         </p>
       </div>
-      <div className="">
+      <div className="cos-span-1 justify-self-center">
         <img
           src="assets/images/restore-reconnect.jpg"
           alt="restore-reconnect pic"
           className="object-cover object-center w-full"
+          loading="lazy"
         />
       </div>
     </section>
