@@ -1,4 +1,6 @@
 import React from "react";
+import BenefitTriangle from "../../components/BenefitTriangle";
+import Button from "../../components/Button";
 
 function Experiences() {
   return (
@@ -13,28 +15,40 @@ function Experiences() {
         evolution. Here are just a few of the many benefits you may experience
         as a result of embarking on one of our journeys
       </p>
-      <div className="flex items-center justify-around flex-wrap">
-        <div>
-          <img src="assets/images/t1.png" alt="upright triangle" />
-        </div>
-        <div>
-          <img
-            src="assets/images/t2.png"
-            alt="upright triangle2"
-            className="rotate-triangle"
-          />
-        </div>
-        <div>
-          <img src="assets/images/t2.png" alt="downside triangle2" />
-        </div>
-        <div>
-          <img
-            src="assets/images/t1.png"
-            alt="downside triangle1"
-            className="rotate-triangle"
-          />
-        </div>
+      <div className="flex gap-3 items-center justify-around flex-wrap my-16">
+        <BenefitTriangle
+          triangle="t1"
+          upright={false}
+          heading="Increased mental and emotional resilience"
+          text="Dissolve stress and anxiety and breakthrough limiting beliefs,
+            negative patterns and trauma"
+        />
+
+        <BenefitTriangle
+          triangle="t2"
+          upright={true}
+          heading="Deeper sense of purpose and meaning"
+          text="Feel more alive and fulfilled and create a greater connection to
+            yourself, others and life itself."
+        />
+
+        <BenefitTriangle
+          triangle="t2"
+          upright={false}
+          heading="More harmonious relationships"
+          text="Overcome your triggers, improve your communication and feel more
+            connected to your friends, family and team."
+        />
+
+        <BenefitTriangle
+          triangle="t1"
+          upright={true}
+          heading="Greater clarity, creativity and confidence"
+          text="Illuminate your mind and tap into the flow of life to uncover your
+            creative genius and highest potential."
+        />
       </div>
+      <Button />
     </section>
   );
 }
