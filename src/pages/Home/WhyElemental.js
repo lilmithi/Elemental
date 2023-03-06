@@ -23,7 +23,7 @@ function WhyElemental() {
     },
   ];
   return (
-    <section className="min-h-screen why-elemental relative pt-32 text-white px-4 md:px-24 lgPro:px-48 2xl:px-64">
+    <section className="min-h-screen why-elemental relative py-28 text-white px-4 md:px-24 lgPro:px-48 2xl:px-64">
       <img
         src="assets/images/why-elemental.jpg"
         alt="why-elemental"
