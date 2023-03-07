@@ -11,6 +11,9 @@ module.exports = {
         lgPro: "1082px",
         "3xl": "2000px",
       },
+      colors: {
+        cream: { 500: "#c3a955" },
+      },
     },
   },
   plugins: [],
