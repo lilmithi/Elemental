@@ -31,7 +31,7 @@ function EmpowerSection() {
           world so you can elevate your impact and influence in the outer world.
         </p>
       </div>
-      <div className="col-span-2 lgPro:col-span-1 justify-self-center">
+      <div className="col-span-2 lgPro:col-span-1 justify-self-center pr-4 lgPro:pr-0">
         <img
           src="assets/images/restore-reconnect.jpg"
           alt="restore-reconnect pic"
