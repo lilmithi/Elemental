@@ -54,3 +54,15 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#062e2d",endColorstr="#284847",GradientType=1);
 }
+.retreat-sub1 {
+  display: none;
+}
+.retreat-sub2 {
+  display: block;
+}
+.retreatSummary:hover .retreat-sub1 {
+  display: block;
+}
+.retreatSummary:hover .retreat-sub2 {
+  display: none;
+}
