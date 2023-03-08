@@ -18,13 +18,13 @@ function Experiences() {
     },
     {
       triangle: "t1",
-      upright: false,
+      upright: true,
       heading: "More harmonious relationships",
       text: "Overcome your triggers, improve your communication and feel more connected to your friends, family and team.",
     },
     {
       triangle: "t2",
-      upright: true,
+      upright: false,
       heading: "Greater clarity, creativity and confidence",
       text: "Illuminate your mind and tap into the flow of life to uncover your creative genius and highest potential.",
     },
